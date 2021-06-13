@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PCH on ycwang&#39;s Blog</title>
+    <link>https://blog.ycwang.me/tags/pch/</link>
+    <description>Recent content in PCH on ycwang&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2008–2020, ycwang; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ycwang.me/tags/pch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PCH 问题总结</title>
+      <link>https://blog.ycwang.me/blog/pch-%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ycwang.me/blog/pch-%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <description>MSVC 下可能遇到的 PCH 错误
+ fatal error C3859: virtual memory range for PCH exceeded; please recompile with a command line option of ‘-ZmXXX’ or greater fatal error C1076: compiler limit: internal heap reached; use /Zm to specify a higher limit fatal error C1083: Cannot open include file: ‘xyzzy’: No such file or directory  MSVC 会开多进程编译，每个 cl 进程都会加载 PCH，如果 PCH 较大且进程很多，就会爆内存或虚存。编译选项 /MP 用来指定并行 cl 的数量，默认值为机器的核心数量。例如：/MP32 开32个 cl 进程并行编译，如果 PCH 为 250MB，那么可能同时触发 32 次 VirtualAlloc() ，请求 32 * 250 MB = 8000 MB 的内存请求，把虚存爆掉（fatal error C3857）。</description>
+    </item>
+    
+  </channel>
+</rss>
