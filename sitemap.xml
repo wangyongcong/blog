@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.ycwang.me/</loc>
+    <loc>https://www.ycwang.me/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/blog/</loc>
+    <loc>https://www.ycwang.me/blog/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/tags/c&#43;&#43;/</loc>
+    <loc>https://www.ycwang.me/tags/c&#43;&#43;/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/tags/msvc/</loc>
+    <loc>https://www.ycwang.me/tags/msvc/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/tags/pch/</loc>
+    <loc>https://www.ycwang.me/tags/pch/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/blog/pch-%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</loc>
+    <loc>https://www.ycwang.me/blog/pch-%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/tags/</loc>
+    <loc>https://www.ycwang.me/tags/</loc>
     <lastmod>2021-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/blog/visual-studio-c&#43;&#43;-%E6%96%87%E4%BB%B6%E7%BC%96%E7%A0%81/</loc>
+    <loc>https://www.ycwang.me/blog/visual-studio-c&#43;&#43;-%E6%96%87%E4%BB%B6%E7%BC%96%E7%A0%81/</loc>
     <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ycwang.me/about/</loc>
+    <loc>https://www.ycwang.me/about/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://blog.ycwang.me/categories/</loc>
+    <loc>https://www.ycwang.me/categories/</loc>
   </url>
 </urlset>
