@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright © 2008–2020, ycwang; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ycwang.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ycwang.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Import Hook 原理</title>
+      <link>https://www.ycwang.me/blog/python-import-hook-%E5%8E%9F%E7%90%86/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ycwang.me/blog/python-import-hook-%E5%8E%9F%E7%90%86/</guid>
+      <description>Python import 过程中，可以通过添加钩子，修改文件查找和加载的方式。游戏开发中，通常需要将脚本文件打包和加密，这时就要用到 Python import hook 机制。下面分别阐述 Python3 和 Python2 的 import hook 工作流程。
+Python3 官方文档 Python3 The Import System 提供了最详细的说明。
+模块查找 工作流程跟 Python2 不同，废除了 find_module 和 load_module，代之为 find_spec，create_module 和 exec_module。模块查找过程为：
+ 先从 sys.modules 里面找 其次通过 meta hooks 机制来加载模块，这是注册到 sys.meta_path 列表的对象，它拥有最高优先级，设置可以通过它替换 built-in module 然后从 sys.path 路径列表找模块，其中每个 path 会经由 import path hooks 来处理，这是注册到 sys.path_hooks 列表的对象，用以修改查找路径  Meta Hook 工作流程 分为2个部分：Finder 和 Loader
+ 调用 Finder.find_spec 获得 Spec 对象，其中 Spec.loader 为自定义的 Loader 对象 调用 Loader.</description>
+    </item>
+    
     <item>
       <title>PCH 问题总结</title>
       <link>https://www.ycwang.me/blog/pch-%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/</link>
