@@ -71,8 +71,19 @@
   
 
   
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose', theme: 'dark'});</script>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/lightbox.min.js"></script>
+<link href="/css/lightbox.min.css" rel="stylesheet"></link>
+<script>
+  lightbox.option({
+    'fadeDuration': 100,
+    'wrapAround': true
+  })
+</script>
+
 <div class="my-4 my-md-5 header">
   <div class="container">
     <div class="row">
@@ -186,8 +197,26 @@
 <li>或者，减少并行的 cl 的数量</li>
 <li>或者，减少 PCH size</li>
 </ol>
-<p>修改 Windows 虚存大小</p>
-<p><a href="/blog/AdjustVirtualMemorySettings.png"><img src="/blog/AdjustVirtualMemorySettings-s.png" alt="image"></a></p>
+<p>修改 Windows 虚存大小
+
+
+
+
+
+
+
+    
+    
+    
+    <figure style="display:inline-block">
+        <a href="AdjustVirtualMemorySettings.png" data-lightbox="image" data-title="Virtual memory settings for Windows10">
+            <img style="max-width:100%; object-fit:contain" src="AdjustVirtualMemorySettings-small.png" alt="image" title="Virtual memory settings for Windows10" />
+        </a>
+        
+        <figcaption style="text-align:center; font-size:12px">Virtual memory settings for Windows10</figcaption>
+        
+    </figure>
+</p>
 <p>VS2015 或之前的版本，PCH 只能在连续的虚存，通过 <code>/Zm</code> 选项来控制虚存上限。在之后的 VS 版本，PCH 破除了这个限制，可以分布在不同的虚存区间，所以这个选项只用于具有 <code>#pragma hdrstop</code> 标记的 PCH。</p>
 
 
@@ -267,7 +296,7 @@
 
           
             
-              <a href="https://www.ycwang.me">© 2020 by ycwang</a>
+              <a href="https://www.ycwang.me">© 2021 by ycwang</a>
             
           
         </div>
