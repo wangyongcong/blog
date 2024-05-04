@@ -1,57 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ycwang&#39;s Blog</title>
+    <title>Tags on Portfolio</title>
     <link>https://www.ycwang.me/tags/</link>
-    <description>Recent content in Tags on ycwang&#39;s Blog</description>
+    <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>Copyright © 2020–2021, ycwang all rights reserved.</copyright>
-    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ycwang.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>programming</title>
-      <link>https://www.ycwang.me/tags/programming/</link>
-      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ycwang.me/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://www.ycwang.me/tags/python/</link>
-      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ycwang.me/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://www.ycwang.me/tags/c&#43;&#43;/</link>
-      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ycwang.me/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MSVC</title>
-      <link>https://www.ycwang.me/tags/msvc/</link>
-      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ycwang.me/tags/msvc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PCH</title>
-      <link>https://www.ycwang.me/tags/pch/</link>
-      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ycwang.me/tags/pch/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Copyright © 2020–2021, ycwang all rights reserved.</copyright><atom:link href="https://www.ycwang.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
